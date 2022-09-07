@@ -1,0 +1,43 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+    
+
+.header{
+    height:64px;
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.header-right,
+.header-left{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: #E5E7EB;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    justify-content: center;
+}
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.margin{
+    width: 300px;
+}
