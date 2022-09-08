@@ -140,7 +140,17 @@ ul{
 
 .quote{
     background-color: #E5E7EB;
-    padding: 0px 300px;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    padding: 64px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.author{
+    align-self: flex-end;
 }
 
 
