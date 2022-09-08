@@ -5,10 +5,10 @@ body{
     background: linear-gradient(
         to bottom,
         #1F2937 0%,
-        #1F2937 28%,
-        #F9FAF8 28%,
-        #F9FAF8  50%,
-        #E5E7EB 50%,
+        #1F2937 30%,
+        #F9FAF8 30%,
+        #F9FAF8  55%,
+        #E5E7EB 55%,
         #E5E7EB 75%,
         #F9FAF8  75%,
         #F9FAF8  94.95%,
@@ -27,7 +27,6 @@ body{
 .header{
     height:64px;
     display: flex;
-    background-color: #1F2937;
     color: #F9FAF8;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +58,6 @@ ul{
 
 .hero-card{
     display: flex;
-    background-color: #1F2937;
     padding: 0px 300px;
     padding-bottom: 64px;
 }
@@ -107,7 +105,6 @@ ul{
 
 
 .information{
-    background-color: #F9FAF8;
     color:#1F2937;
     padding: 0px 300px;
     display: flex;
@@ -118,6 +115,11 @@ ul{
 
 }
 
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .text-info{
     padding-top: 32px;
     font-size: 36px;
@@ -136,11 +138,12 @@ ul{
 
 
 .text{
+    width: 150px;
     color: gray;
+
 }
 
 .quote{
-    background-color: #E5E7EB;
     padding: 64px 300px;
     display: flex;
     flex-direction: column;
@@ -160,7 +163,6 @@ ul{
 
 
 .sign-up-block{
-    background-color: #F9FAF8;
     color: #1F2937;
     padding: 64px 300px;
 }
@@ -195,7 +197,6 @@ ul{
 
 .footer{
     display: flex;
-    background-color: #1F2937;
     color: #F9FAF8;
     align-items: center;
     justify-content: center;
